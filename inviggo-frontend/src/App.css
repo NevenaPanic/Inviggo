@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.myHeader {
+  min-height: 50px;
+  position: sticky;
+  top: 0;
+  z-index:1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: white;
+}
+
+.profileSlider {
+  text-align: center;
+  margin: 25;
+  color: white;
+}
+
+.logo {
+  padding: 10px;
+  align-content: center;
+}
