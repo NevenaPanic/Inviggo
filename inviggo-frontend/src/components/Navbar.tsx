@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div style={{alignItems: 'center'}}> 
       <Button ghost type="text" color='default' variant="outlined">Sign up</Button>
       <Link to="/login">
-        <Button ghost type="text" color='default' variant="outlined" style={{marginLeft: '15px'}}>Sign in</Button>
+        <Button ghost type="text" color='default' variant="outlined" style={{marginLeft: '15px'}}>Log in</Button>
       </Link>
       </div>
       </Header>
