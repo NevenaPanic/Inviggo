@@ -1,25 +1,58 @@
 import type { FormProps } from 'antd';
-import { Button, Form, Input, Card } from 'antd';
+import { Button, Form, Input, Card, message } from 'antd';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+//import { useState } from 'react';
 
 type FieldType = {
   username?: string;
   password?: string;
 };
 
-const onFinish: FormProps<FieldType>['onFinish'] = (values) => {
-  console.log('Success:', values);
+// ant designs onSubmit() method
+export const Login = () => {
+
+  const navigate = useNavigate();
+  const { login } = useAuth();
+
+  const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {
+  const requestOptions = {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(values)
+  };
+
+  try {
+    const response = await fetch('http://localhost:3000/users/login', requestOptions);
+
+    if(response.ok){  
+      // here I'll store token
+      const data = await response.json();
+      const token = data.jwtToken;
+      localStorage.setItem('jwtToken', token);
+      login({ username: data.username });
+
+      // redirect to home page
+      navigate('/');
+    } else {
+        const errorData = await response.json();
+        message.error(errorData.message || 'Login failed');
+    }
+  } catch (error) {
+      message.error('Something went wrong... :(');
+  }
 };
 
 const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
   console.log('Failed:', errorInfo);
 };
 
-export const Login = () => {
+
   return (
     <>
         <Card title="Log In" style={{width:350, margin: "50px auto"}}>
             <Form
-                name="basic"
+                name="loginForm"
                 labelCol={{ span: 8 }}
                 wrapperCol={{ span: 16 }}
                 style={{ maxWidth: 600 }}
