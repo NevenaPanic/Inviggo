@@ -8,13 +8,6 @@ import { useAuth } from "../contexts/AuthContext";
 const { Footer, Sider, Content} = Layout;
 const { Option } = Select;
 
-const siderStyle: React.CSSProperties = {
-  textAlign: 'center',
-  lineHeight: '60px',
-  color: '#fff',
-  backgroundColor: '#f2f2f2'
-};
-
 interface AdData  {
     _id: string;
     imageUrl: string;
@@ -108,18 +101,25 @@ export const Home = () => {
     backgroundColor: 'transparent',
   };
   
+  const siderStyle: React.CSSProperties = {
+    textAlign: 'center',
+    lineHeight: '60px',
+    color: '#fff',
+    backgroundColor: '#f2f2f2'
+  };
+
   return (
     
     <>
-      <Layout style={{ margin:"20px", backgroundColor: "transparent" }}>
-        <h1>Available Ads</h1>
+      <Layout style={{ margin:"10px", backgroundColor: "transparent" }}>
+        <h1 style={{color: '#454545'}}>Available Ads</h1>
         <Layout>
-          <Content style={{ padding: '20px' }}>
+          <Content style={{ padding: '5px' }}>
             <Row gutter={[16, 16]} justify="center">
               {ads.map((ad, index) => (
                 <Col
                   key={index}
-                  xs={24} sm={12} md={8} lg={6} xl={6} xxl={4}
+                  style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}
                 >
                   <Ad adData={ad} handleDeleteAd={handleDeleteAd}/>
                 </Col>
@@ -174,6 +174,7 @@ export const Home = () => {
             total={total}
             defaultPageSize={limit}
             onChange={onPageChange}
+            showSizeChanger={false}
           />
         </Footer>
       </Layout>
