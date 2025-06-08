@@ -10,6 +10,7 @@ app.use(cors({
   origin: 'http://localhost:4000'
 }));
 
+
 // set up routers(controllers)
 const usersRouter = require('./controllers/UserController');
 app.use('/users', usersRouter);

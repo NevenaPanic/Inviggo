@@ -1,6 +1,8 @@
 import type { FormProps } from 'antd';
 import { Form, Input, Button, message, Card } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import axiosInstance from '../axios/axiosInstance';
 
 type FieldType = {
   username: string;
@@ -10,33 +12,27 @@ type FieldType = {
 
 export const SignUp = () => {
   const navigate = useNavigate();
+   const { login } = useAuth();
 
   const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(values),
-    };
+    try{
+      const response = await axiosInstance.post('/users/register', values);
+      if(response.data.jwtToken !== null)
+      {
+        localStorage.setItem('jwtToken', response.data.jwtToken);
+        login({ username: response.data.username });
 
-    try {
-      const response = await fetch('http://localhost:3000/users/register', requestOptions); 
-
-      if (response.ok) {
-        const data = await response.json();
-        const token = data.jwtToken;
-        localStorage.setItem('jwtToken', token);
-          
         message.success('Registration successful!');
-        navigate('/'); // or navigate('/login') if you want to redirect to login
-      } else {
-        const errorData = await response.json();
-        message.error(errorData.error || 'Registration failed');
+        navigate('/'); // redirect to home
       }
-    } catch (error) {
-      message.error('Something went wrong. Please try again.');
-      console.error('Error:', error);
+    } catch (error: any) {
+        if(error.response)
+        {
+          message.error(error.response.data.message);
+        }
     }
   };
+
   return (
     <Card title='Register Form' style={{width:550, margin: "50px auto"}}>
         <Form name="signup" layout="vertical" onFinish={onFinish}>

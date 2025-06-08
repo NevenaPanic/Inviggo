@@ -2,7 +2,8 @@ import type { FormProps } from 'antd';
 import { Button, Form, Input, Card, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-//import { useState } from 'react';
+import axiosInstance from '../axios/axiosInstance';
+import type { AxiosResponse } from 'axios';
 
 type FieldType = {
   username?: string;
@@ -16,36 +17,27 @@ export const Login = () => {
   const { login } = useAuth();
 
   const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {
-  const requestOptions = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(values)
+    try {
+      const response = await axiosInstance.post('/users/login', values);
+      if(response.data.jwtToken !== null)
+      {
+        localStorage.setItem('jwtToken', response.data.jwtToken);
+        login({ username: response.data.username });
+        message.success(`Welcome ${response.data.username}!`);
+        // redirect to home page
+        navigate('/');
+      }
+    } catch (error: any) {
+        if(error.response)
+        {
+          message.error(error.response.data.message);
+        }
+    }
   };
 
-  try {
-    const response = await fetch('http://localhost:3000/users/login', requestOptions);
-
-    if(response.ok){  
-      // here I'll store token
-      const data = await response.json();
-      const token = data.jwtToken;
-      localStorage.setItem('jwtToken', token);
-      login({ username: data.username });
-
-      // redirect to home page
-      navigate('/');
-    } else {
-        const errorData = await response.json();
-        message.error(errorData.message || 'Login failed');
-    }
-  } catch (error) {
-      message.error('Something went wrong... :(');
-  }
-};
-
-const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
-  console.log('Failed:', errorInfo);
-};
+  const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
+    console.log('Failed:', errorInfo);
+  };
 
 
   return (

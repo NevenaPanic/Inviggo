@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 .myHeader {
@@ -13,6 +14,7 @@ html, body {
   justify-content: space-between;
   align-content: center;
   color: white;
+  background-color: #a5a5a5;
 }
 
 .profileSlider {
