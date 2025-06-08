@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "username": "nevena",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000001",
+  "registrationDate": {
+    "$date": "2025-04-06T10:15:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "username": "milan",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000002",
+  "registrationDate": {
+    "$date": "2025-03-21T00:57:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "username": "tijana",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000003",
+  "registrationDate": {
+    "$date": "2025-04-20T00:26:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "username": "vuk",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000004",
+  "registrationDate": {
+    "$date": "2025-03-26T05:45:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "username": "milica",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000005",
+  "registrationDate": {
+    "$date": "2025-03-11T04:39:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "username": "andrej",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000006",
+  "registrationDate": {
+    "$date": "2025-03-16T14:05:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "username": "anđela",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000007",
+  "registrationDate": {
+    "$date": "2025-03-13T12:14:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "username": "jovan",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000008",
+  "registrationDate": {
+    "$date": "2025-04-25T12:55:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "username": "teodora",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "0640000009",
+  "registrationDate": {
+    "$date": "2025-05-29T23:46:21.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "username": "nikola",
+  "password": "$2b$10$72CoK7tyxSTGGRgHdYBfnOEfhgVCyEaFVpbQ6kOiiuQqWwR0l8v3e",
+  "phone": "06400000010",
+  "registrationDate": {
+    "$date": "2025-05-15T04:36:21.988Z"
+  }
+}]

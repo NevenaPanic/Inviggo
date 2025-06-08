@@ -13,6 +13,7 @@ interface AdProps  {
         _id: string;
         imageUrl: string;
         name: string;
+        description: string,
         price: number;
         city: string;
         category: Category;
@@ -24,9 +25,10 @@ interface AdProps  {
         }
     },
     handleDeleteAd : (_id: string) => void;
-}
+};
 
 const Ad = ({adData, handleDeleteAd} : AdProps) => {
+  const navigate = useNavigate();
   const { Meta } = Card;
   const user = useAuth();
 
@@ -34,7 +36,7 @@ const Ad = ({adData, handleDeleteAd} : AdProps) => {
 const [viewModalOpen, setViewModalOpen] = useState<boolean>(false);
 
   const handleEditClick = () => {
-    message.info('Kliknuto: Izmeni');
+    navigate('/editAd', { state: adData });
   };
 
   const handleDeleteClick = async () => {
@@ -65,21 +67,26 @@ const [viewModalOpen, setViewModalOpen] = useState<boolean>(false);
     },
     {
         key: '2',
+        label: 'Description',
+        children: adData.description,
+    },
+    {
+        key: '3',
         label: 'City',
         children: adData.city,
     },
     {
-        key: '3',
+        key: '4',
         label: 'Price',
         children: `${adData.price} RSD`,
     },
     {
-        key: '4',
+        key: '5',
         label: 'User',
         children: adData.user.username,
     },
     {
-        key: '5',
+        key: '6',
         label: 'Phone Number',
         children: adData.user.phone,
     },

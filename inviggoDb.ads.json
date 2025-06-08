@@ -1,0 +1,1700 @@
+[{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008fa"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 31824,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-03T14:39:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008fb"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 47840,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-03T22:31:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008fc"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 33532,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-07T10:50:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008fd"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 18802,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-08T17:35:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008fe"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 2012,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-02T04:57:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda6008ff"
+  },
+  "name": "Sto",
+  "description": "Drveni sto dimenzija 120x80.",
+  "imageUrl": "image.png",
+  "price": 27568,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-08T11:08:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600900"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 12854,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-03T21:02:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600901"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 18788,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-05T04:26:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600902"
+  },
+  "name": "Sto",
+  "description": "Drveni sto dimenzija 120x80.",
+  "imageUrl": "image.png",
+  "price": 38294,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-04T05:46:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600903"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 36530,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008eb"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-01T19:02:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600904"
+  },
+  "name": "Naočare za sunce",
+  "description": "Moderne naočare sa UV zaštitom.",
+  "imageUrl": "image.png",
+  "price": 22684,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-01T07:31:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600905"
+  },
+  "name": "Fudbalska lopta",
+  "description": "Profesionalna lopta za fudbal.",
+  "imageUrl": "image.png",
+  "price": 17495,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-05T21:44:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600906"
+  },
+  "name": "Društvena igra",
+  "description": "Zabavna igra za celu porodicu.",
+  "imageUrl": "image.png",
+  "price": 5953,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-06T14:03:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600907"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 39704,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-06T02:52:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600908"
+  },
+  "name": "Naočare za sunce",
+  "description": "Moderne naočare sa UV zaštitom.",
+  "imageUrl": "image.png",
+  "price": 12566,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-01T23:48:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600909"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 19733,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-04T06:57:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090a"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 37894,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-01T01:32:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090b"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 43974,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-08T06:31:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090c"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 21435,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-01T00:26:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090d"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 30904,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ec"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-08T06:09:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090e"
+  },
+  "name": "Laptop",
+  "description": "Core i5, 8GB RAM, SSD.",
+  "imageUrl": "image.png",
+  "price": 20531,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-06T12:56:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60090f"
+  },
+  "name": "Fudbalska lopta",
+  "description": "Profesionalna lopta za fudbal.",
+  "imageUrl": "image.png",
+  "price": 20167,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-01T07:40:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600910"
+  },
+  "name": "Laptop",
+  "description": "Core i5, 8GB RAM, SSD.",
+  "imageUrl": "image.png",
+  "price": 27629,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-05T18:21:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600911"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 11212,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-07T07:18:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600912"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 34665,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-04T04:14:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600913"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 34303,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-05T20:54:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600914"
+  },
+  "name": "Sto",
+  "description": "Drveni sto dimenzija 120x80.",
+  "imageUrl": "image.png",
+  "price": 653,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-04T12:18:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600915"
+  },
+  "name": "Fudbalska lopta",
+  "description": "Profesionalna lopta za fudbal.",
+  "imageUrl": "image.png",
+  "price": 40451,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-03T18:41:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600916"
+  },
+  "name": "Tegovi",
+  "description": "Set tegova ukupne težine 20kg.",
+  "imageUrl": "image.png",
+  "price": 15108,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-07T08:16:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600917"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 39217,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ed"
+  },
+  "city": "Subotica",
+  "createdAt": {
+    "$date": "2025-06-03T15:50:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600918"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 5881,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-05T02:27:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600919"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 25108,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-06T13:24:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091a"
+  },
+  "name": "PS5 igra",
+  "description": "Originalna PS5 igra, očuvana.",
+  "imageUrl": "image.png",
+  "price": 12326,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Subotica",
+  "createdAt": {
+    "$date": "2025-06-05T07:58:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091b"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 36324,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-06T11:29:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091c"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 34556,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-07T14:19:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091d"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 43732,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-02T12:26:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091e"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 44688,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-01T19:16:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60091f"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 17487,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-06T01:14:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600920"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 35253,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-08T14:20:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600921"
+  },
+  "name": "Sto",
+  "description": "Drveni sto dimenzija 120x80.",
+  "imageUrl": "image.png",
+  "price": 19410,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ee"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-08T08:52:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600922"
+  },
+  "name": "Tegovi",
+  "description": "Set tegova ukupne težine 20kg.",
+  "imageUrl": "image.png",
+  "price": 15927,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-02T11:12:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600923"
+  },
+  "name": "Knjiga o programiranju",
+  "description": "Uvod u Python programiranje.",
+  "imageUrl": "image.png",
+  "price": 26746,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-04T00:16:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600924"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 17886,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-02T16:04:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600925"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 21498,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-03T16:20:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600926"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 42286,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-06T21:13:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600927"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 29682,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-02T14:23:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600928"
+  },
+  "name": "Sto",
+  "description": "Drveni sto dimenzija 120x80.",
+  "imageUrl": "image.png",
+  "price": 48280,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-01T05:35:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600929"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 16860,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-03T14:10:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092a"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 40824,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-06T20:40:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092b"
+  },
+  "name": "Društvena igra",
+  "description": "Zabavna igra za celu porodicu.",
+  "imageUrl": "image.png",
+  "price": 15354,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008ef"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-05T13:09:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092c"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 25072,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-05T03:13:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092d"
+  },
+  "name": "PS5 igra",
+  "description": "Originalna PS5 igra, očuvana.",
+  "imageUrl": "image.png",
+  "price": 6302,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-07T18:21:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092e"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 20247,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-05T08:16:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60092f"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 18759,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-06T23:36:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600930"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 22910,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-04T06:49:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600931"
+  },
+  "name": "PS5 igra",
+  "description": "Originalna PS5 igra, očuvana.",
+  "imageUrl": "image.png",
+  "price": 6068,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-03T23:42:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600932"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 18190,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-03T21:10:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600933"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 4125,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-04T00:33:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600934"
+  },
+  "name": "Društvena igra",
+  "description": "Zabavna igra za celu porodicu.",
+  "imageUrl": "image.png",
+  "price": 42184,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Subotica",
+  "createdAt": {
+    "$date": "2025-06-02T08:25:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600935"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 10484,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f0"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-03T13:01:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600936"
+  },
+  "name": "Fudbalska lopta",
+  "description": "Profesionalna lopta za fudbal.",
+  "imageUrl": "image.png",
+  "price": 9744,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-01T06:14:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600937"
+  },
+  "name": "Knjiga o programiranju",
+  "description": "Uvod u Python programiranje.",
+  "imageUrl": "image.png",
+  "price": 23489,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-07T14:11:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600938"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 11877,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-01T00:40:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600939"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 26664,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-07T14:05:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093a"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 29292,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-06T10:45:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093b"
+  },
+  "name": "Knjiga o programiranju",
+  "description": "Uvod u Python programiranje.",
+  "imageUrl": "image.png",
+  "price": 30967,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-07T09:30:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093c"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 25432,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-02T13:23:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093d"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 24008,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-03T12:22:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093e"
+  },
+  "name": "Knjiga o programiranju",
+  "description": "Uvod u Python programiranje.",
+  "imageUrl": "image.png",
+  "price": 25175,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-04T13:15:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60093f"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 33958,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f1"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-04T01:03:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600940"
+  },
+  "name": "Muška jakna",
+  "description": "Topla zimska jakna.",
+  "imageUrl": "image.png",
+  "price": 29410,
+  "category": "CLOTHING",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-07T22:18:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600941"
+  },
+  "name": "Naočare za sunce",
+  "description": "Moderne naočare sa UV zaštitom.",
+  "imageUrl": "image.png",
+  "price": 11800,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-03T18:28:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600942"
+  },
+  "name": "Tegovi",
+  "description": "Set tegova ukupne težine 20kg.",
+  "imageUrl": "image.png",
+  "price": 7193,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-03T02:12:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600943"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 46546,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-04T16:29:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600944"
+  },
+  "name": "Knjiga o programiranju",
+  "description": "Uvod u Python programiranje.",
+  "imageUrl": "image.png",
+  "price": 46539,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-04T22:02:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600945"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 5988,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Subotica",
+  "createdAt": {
+    "$date": "2025-06-01T11:25:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600946"
+  },
+  "name": "Fudbalska lopta",
+  "description": "Profesionalna lopta za fudbal.",
+  "imageUrl": "image.png",
+  "price": 18706,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-05T21:28:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600947"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 23335,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-03T22:00:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600948"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 28666,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-02T07:07:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600949"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 34975,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f2"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-07T23:38:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094a"
+  },
+  "name": "Igračka za mačku",
+  "description": "Interaktivna igračka.",
+  "imageUrl": "image.png",
+  "price": 43769,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-04T11:22:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094b"
+  },
+  "name": "Bežične slušalice",
+  "description": "Bluetooth slušalice sa punjačem.",
+  "imageUrl": "image.png",
+  "price": 19175,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-05T09:14:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094c"
+  },
+  "name": "Laptop",
+  "description": "Core i5, 8GB RAM, SSD.",
+  "imageUrl": "image.png",
+  "price": 33952,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-06T13:48:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094d"
+  },
+  "name": "Ranac",
+  "description": "Ranac srednje veličine.",
+  "imageUrl": "image.png",
+  "price": 31772,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-01T01:50:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094e"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 49464,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-02T03:50:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60094f"
+  },
+  "name": "Set odvijača",
+  "description": "Komplet od 10 odvijača.",
+  "imageUrl": "image.png",
+  "price": 20714,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-08T07:15:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600950"
+  },
+  "name": "Tegovi",
+  "description": "Set tegova ukupne težine 20kg.",
+  "imageUrl": "image.png",
+  "price": 42318,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Zrenjanin",
+  "createdAt": {
+    "$date": "2025-06-04T22:02:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600951"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 30860,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Kragujevac",
+  "createdAt": {
+    "$date": "2025-06-01T23:01:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600952"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 4426,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-03T05:59:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600953"
+  },
+  "name": "Društvena igra",
+  "description": "Zabavna igra za celu porodicu.",
+  "imageUrl": "image.png",
+  "price": 8379,
+  "category": "GAMES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f3"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-08T19:50:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600954"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 27955,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Niš",
+  "createdAt": {
+    "$date": "2025-06-01T10:33:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600955"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 25630,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-03T03:34:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600956"
+  },
+  "name": "Ogrlica za psa",
+  "description": "Podesiva ogrlica sa zvoncem.",
+  "imageUrl": "image.png",
+  "price": 47234,
+  "category": "PETS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Beograd",
+  "createdAt": {
+    "$date": "2025-06-08T13:13:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600957"
+  },
+  "name": "Fotelja",
+  "description": "Udobna fotelja sive boje.",
+  "imageUrl": "image.png",
+  "price": 510,
+  "category": "FURNITURE",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-05T04:52:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600958"
+  },
+  "name": "Tegovi",
+  "description": "Set tegova ukupne težine 20kg.",
+  "imageUrl": "image.png",
+  "price": 49263,
+  "category": "SPORTS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-02T16:23:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda600959"
+  },
+  "name": "Roman",
+  "description": "Popularan roman domaćeg autora.",
+  "imageUrl": "image.png",
+  "price": 36229,
+  "category": "BOOKS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-03T00:05:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60095a"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 23600,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Pančevo",
+  "createdAt": {
+    "$date": "2025-06-05T01:37:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60095b"
+  },
+  "name": "Laptop",
+  "description": "Core i5, 8GB RAM, SSD.",
+  "imageUrl": "image.png",
+  "price": 48810,
+  "category": "TECHNOLOGY",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Novi Sad",
+  "createdAt": {
+    "$date": "2025-06-01T12:34:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60095c"
+  },
+  "name": "Bušilica",
+  "description": "Električna bušilica, skoro nova.",
+  "imageUrl": "image.png",
+  "price": 24030,
+  "category": "TOOLS",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Čačak",
+  "createdAt": {
+    "$date": "2025-06-02T19:30:25.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846023a99306e5dda60095d"
+  },
+  "name": "Naočare za sunce",
+  "description": "Moderne naočare sa UV zaštitom.",
+  "imageUrl": "image.png",
+  "price": 14762,
+  "category": "ACCESSORIES",
+  "user": {
+    "$oid": "6846000a99306e5dda6008f4"
+  },
+  "city": "Subotica",
+  "createdAt": {
+    "$date": "2025-06-08T09:09:25.994Z"
+  }
+}]

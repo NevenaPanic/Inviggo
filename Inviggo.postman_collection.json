@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "9394a47f-53be-42b0-a0b2-8f0f9bcd23d8",
+		"name": "Inviggo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17604326"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"nevena\",\r\n    \"password\": \"pass123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/login Fail",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"nevena\",\r\n    \"password\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDM0NTEzZTBkYTc4ZjIyNzRlYjc3NSIsInVzZXJuYW1lIjoibmV2ZW5hIiwiaWF0IjoxNzQ5MzM1NjA5fQ.Dfb-MwfFPrP2FjW5O0Ira1Y1Kp5UE7YGK6uR6bLXDAs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ads",
+			"item": [
+				{
+					"name": "/ads",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ads?page=1&limit=5&username=nevena",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ads"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								},
+								{
+									"key": "name",
+									"value": "PACE",
+									"disabled": true
+								},
+								{
+									"key": "username",
+									"value": "nevena"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ads/:id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDM0NTEzZTBkYTc4ZjIyNzRlYjc3NSIsInVzZXJuYW1lIjoibmV2ZW5hIiwiaWF0IjoxNzQ5NDE1MTE3fQ.-6TkTtmgfQ4c6cjOB1ei7Jo0mXcCrnS6ILz4WSHIuaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "PostmanTest Ad Updated",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "PostmanTest Ad Updated",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "GAMES",
+									"type": "text"
+								},
+								{
+									"key": "city",
+									"value": "Updated",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "nevena",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/D:/Nevena Laptop Backup/Files/cute emoji/excited.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/ads/6845f508351164e476688087",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ads",
+								"6845f508351164e476688087"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ads",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDM0NTEzZTBkYTc4ZjIyNzRlYjc3NSIsInVzZXJuYW1lIjoibmV2ZW5hIiwiaWF0IjoxNzQ5NDE1MTE3fQ.-6TkTtmgfQ4c6cjOB1ei7Jo0mXcCrnS6ILz4WSHIuaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "PostmanTest Ad",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "PostmanTest Ad Desc",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "50",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "GAMES",
+									"type": "text"
+								},
+								{
+									"key": "city",
+									"value": "Test City",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/D:/Nevena Laptop Backup/Files/cute emoji/cute_frog.png"
+								},
+								{
+									"key": "username",
+									"value": "nevena",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/ads",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ads"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/ads/:id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDM0NTEzZTBkYTc4ZjIyNzRlYjc3NSIsInVzZXJuYW1lIjoibmV2ZW5hIiwiaWF0IjoxNzQ5Mzg4OTYwfQ.mXVV8zngTk6gtsVJYoQWeTQRmjrLIAXg_ExM_KgJEgI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ads/684570661039f2208f5ac980",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ads",
+								"684570661039f2208f5ac980"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

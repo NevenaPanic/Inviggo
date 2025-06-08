@@ -12,13 +12,14 @@ const siderStyle: React.CSSProperties = {
   textAlign: 'center',
   lineHeight: '60px',
   color: '#fff',
-  backgroundColor: 'gray',
+  backgroundColor: '#f2f2f2'
 };
 
 interface AdData  {
     _id: string;
     imageUrl: string;
     name: string;
+    description: string;
     price: number;
     city: string;
     category: Category;
@@ -37,7 +38,7 @@ export const Home = () => {
 
   // pagination
   const [page, setPage] = useState<number>(1);
-  const [limit, setLimit] = useState<number>(5);
+  const [limit, setLimit] = useState<number>(20);
   const [total, setTotal] = useState<number>(0);
 
   // fillter

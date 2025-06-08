@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes, } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext'
 import { SignUp } from './components/SignUp'
 import { NewAd } from './components/NewAd'
+import { EditAd } from './components/EditAd'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/register' element={<SignUp />}></Route>
           <Route path='/newAd' element={<NewAd />}></Route>
+          <Route path='/editAd' element={<EditAd />}></Route>
+          <Route path="*" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
     </AuthProvider>

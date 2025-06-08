@@ -1,11 +1,9 @@
 const express = require('express');
 const multer = require('multer')
-
 const jwt = require('jsonwebtoken');
 const Ad = require('../models/Ad');
 const User = require('../models/User');
 const AuthMiddleware = require('../middleware/authMiddleware');
-const Category = require('../enums/Category');
 
 const router = express.Router();
 
@@ -57,7 +55,7 @@ router.get('/', async (req, res) => {
         .skip(skip)
         .populate('user', 'username phone registrationDate')
 
-      const total = await Ad.countDocuments(query); // ukupan broj oglasa
+      const total = await Ad.countDocuments(query); // ukupan broj oglasa sa filterom
 
       res.status(200).json({
         total,
@@ -109,6 +107,51 @@ router.delete('/:id', AuthMiddleware, async(req, res) => {
   } catch(error) {
     res.status(500).json({ message: 'Server error'});
   }
+});
+
+router.patch('/:id', AuthMiddleware, upload.single('file'), async (req, res) => {
+  try 
+  {
+    const { id } = req.params;
+    const { name, description, price, city, category, username } = req.body;
+    const file = req.file;
+    
+    const ad = await Ad.findById(id);
+
+    if (!ad) {
+      return res.status(404).json({ message: 'Ad not found' });
+    }
+    
+     let newImageUrl = ad.imageUrl;
+    // if new file uploaded
+    if (req.file) {
+      newImageUrl = file.filename;
+    
+    // if (ad.imageUrl) {
+    //   const oldImagePath = path.join(__dirname, '..', 'public', 'images', ad.imageUrl);
+    //   fs.unlink(oldImagePath, (err) => {
+    //     if (err) {
+    //       console.warn('Failed to delete old image:', err.message);
+    //     }
+    //   });
+    // }
+  }
+
+    ad.name = name;
+    ad.description = description;
+    ad.price = price;
+    ad.city = city;
+    ad.category = category;
+    ad.imageUrl = newImageUrl;
+
+    await ad.save();
+
+    res.status(204).json({ message: 'Ad updated successfully', ad });
+
+  } catch (error) {
+    res.status(500).json({ message: 'Internal server error' });
+  }
+
 });
 
 

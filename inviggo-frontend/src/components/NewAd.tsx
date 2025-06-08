@@ -34,12 +34,15 @@ export const NewAd = () => {
     const formData = new FormData()
     const file = values.imageUrl?.[0]?.originFileObj;
 
+    if(user === null)
+      return;
+
     formData.append('name', values.name)
     formData.append('description', values.description)
     formData.append('price', values.price.toString())
     formData.append('city', values.city)
     formData.append('category', values.category)
-    formData.append('username', user == null ? '' : user.username)
+    formData.append('username', user.username)
 
     if (file) {
       const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
@@ -82,7 +85,7 @@ export const NewAd = () => {
           <Input.TextArea rows={4} />
         </Form.Item>
 
-        <Form.Item name="imageUrl" label="Upload" valuePropName="fileList" getValueFromEvent={normFile} required>
+        <Form.Item name="imageUrl" label="Upload" valuePropName="fileList" getValueFromEvent={normFile} rules={[{ required: true }]}>
           <Upload 
             maxCount={1}
             multiple={false}
