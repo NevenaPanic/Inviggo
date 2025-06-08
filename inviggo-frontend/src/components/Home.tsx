@@ -2,17 +2,27 @@ import { Layout, Space } from "antd"
 import Ad from "./Ad"
 import { Category } from "../enums/Category"
 import { Content } from "antd/es/layout/layout"
+import { useEffect, useState } from "react"
+import axiosInstance from "../axios/axiosInstance"
 
 export const Home = () => {
-  const ads = [
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""},
-    {name: "Auto", price: 5000, city: "Novi Sad", category: Category.Games, url: ""}
-  ]
+  const [ads, setAds] = useState([]);
+
+  useEffect(() => {
+    const getAds = async () => {
+      try {
+        const response = await axiosInstance.get('/ads');
+        if (response.data) {
+          setAds(response.data);
+        }
+      } catch (error) {
+        console.error('Greška pri dohvatanju oglasa:', error);
+      }
+    };
+
+    getAds();
+  }, []);
+
   return (
     
     <>

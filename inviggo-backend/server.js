@@ -4,7 +4,6 @@ const { default: mongoose } = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-
 app.use(express.json());
 app.use(cors({
   origin: 'http://localhost:4000'
@@ -22,6 +21,7 @@ const db = mongoose.connection;
 db.on('error', (error) => console.log(error));
 db.once('open', () => console.log('Connected to Mongo Database'));
 
+app.use(express.static('public'))
 // app run 
 // npm run devStart - command
 app.listen(process.env.PORT, () => {

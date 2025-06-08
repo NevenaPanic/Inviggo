@@ -5,7 +5,7 @@ import type { Category } from '../enums/Category';
 //slika, ime, cena, grad, kategorije
 interface AdProps  {
     adData: {
-        url: string;
+        imageUrl: string;
         name: string;
         price: number;
         city: string;
@@ -26,8 +26,8 @@ const Ad = ({adData} : AdProps) => {
             style={{ width: 300 }}
             cover={
             <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                alt={adData.imageUrl}
+                src={`http://localhost:3000/images/${adData.imageUrl}`}
             />
             }
             actions={[
