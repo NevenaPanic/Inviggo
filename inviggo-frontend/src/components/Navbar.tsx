@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   return (
-    <Layout>
+    <Layout style={{display: 'contents'}}>
       <Header className='myHeader'>
       <div className='logo'>
         <Link to='/'>

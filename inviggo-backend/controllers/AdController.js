@@ -23,14 +23,53 @@ const upload = multer({ storage: storage })
 
 
 router.get('/', async (req, res) => {
+  try{
+      const page = parseInt(req.query.page) || 1;
+      const limit = parseInt(req.query.limit) || 20;
+      const { name, category, minPrice, maxPrice, username } = req.query;
+      
+      const query = {};
+      if (name) {
+        query.name = { $regex: name, $options: 'i' }; // case-insensitive contains
+      }
 
-    try{
-        const ads = await Ad.find();
-        res.status(200).json(ads);
-    }
-    catch(error){
-        res.status(400).json({message: error.massage});
-    }
+      if (category) {
+        query.category = category;
+      }
+
+      if (minPrice || maxPrice) {
+        query.price = {};
+        if (minPrice) 
+          query.price.$gte = Number(minPrice);
+        if (maxPrice) 
+          query.price.$lte = Number(maxPrice);
+      }
+
+      if (username) {
+        query.user = await User.find({username});
+      }
+
+      const skip = (page - 1) * limit;
+
+      const ads = await Ad.find(query)
+        .sort({ createdAt: -1, _id: -1 })
+        .limit(limit)
+        .skip(skip)
+        .populate('user', 'username phone registrationDate')
+
+      const total = await Ad.countDocuments(query); // ukupan broj oglasa
+
+      res.status(200).json({
+        total,
+        page,
+        pages: Math.ceil(total/limit),
+        limit,
+        ads: ads
+      });
+  }
+  catch(error){
+      res.status(400).json({message: error.massage});
+  }
 });
 
 router.post('/', AuthMiddleware, upload.single('file'), async (req, res) => {
@@ -56,6 +95,20 @@ router.post('/', AuthMiddleware, upload.single('file'), async (req, res) => {
   }
 
   res.status(201).json({ message: "Upload successful" });
+});
+
+router.delete('/:id', AuthMiddleware, async(req, res) => {
+  try{
+    const id = req.params.id;
+    const result = await Ad.findByIdAndDelete(id);
+  
+    if(!result){
+      return res.status(404).json({ message: 'Ad not found.' });
+    }
+    res.status(200).json({ message: 'Add deleted successfully.'});
+  } catch(error) {
+    res.status(500).json({ message: 'Server error'});
+  }
 });
 
 

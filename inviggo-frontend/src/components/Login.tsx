@@ -3,7 +3,6 @@ import { Button, Form, Input, Card, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import axiosInstance from '../axios/axiosInstance';
-import type { AxiosResponse } from 'axios';
 
 type FieldType = {
   username?: string;
